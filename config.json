@@ -1,0 +1,8 @@
+{
+  "backendServer": "gold.magmanode.com:33534",
+  "proxyPort": 8080,
+  "useSSL": true,
+  "motd": "Servidor Eaglercraft 1.12.2 conectado a MagmaNode",
+  "maxPlayers": 20,
+  "onlineMode": false
+}
