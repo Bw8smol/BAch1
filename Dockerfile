@@ -7,4 +7,4 @@ COPY . .
 # Expone el puerto que usa tu proxy
 EXPOSE 8080
 # Comando para ejecutar tu proxy EaglerXServer 
-CMD ["java", "-jar", "EaglerXServer.jar", "--port", "8080"]
+CMD ["sh", "-c", "java -jar EagleXServer.jar --port ${PORT:-8080}"]
